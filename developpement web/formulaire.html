@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>رأي المستخدم حول الموقع الويب الخاص بك</title>
+</head>
+<body>
+    <h1>تقييم الصفحة</h1>
+    <form action="/action_page.php">
+        <p> الاسم <input name="nom" type="text"/> </p>
+        <p> اللقب<input name="nom" type="text"/> </p>
+        <p> تاريخ الولادة <input type="date"></p>
+        <p> الجنس:
+       <br> <input type="radio" name="genre"/> ذكر<br/>
+<input type="radio" name="genre"/> أنثى <br/>
+<input type="radio" name="genre"/> أخرى <br/></p>
+<label for="email">البريد الالكتروني:</label>
+  <input type="email" id="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+  <input type="submit"><br><br>
+  <select name="pays" title="الولاية">
+    <option value="Tunis">تونس</option>
+<option value="Ariana">أريانة</option>
+<option value="Ben Arous">بن عروس</option>
+<option value="Manouba">منوبة</option>
+<option value="Zaghouan">زغوان</option>
+<option value="Nabeul">نابل</option>
+<option value="Bizerte">بنزرت</option>
+<option value="Béja">باجة</option>
+<option value="Jendouba">جندوبة</option>
+<option value="Kef">كاف</option>
+<option value="Siliana">سليانة</option>
+<option value="Sousse">سوسة</option>
+<option value="Monastir">المنستير</option>
+<option value="Mahdia">المهدية</option>
+<option value="Sfax">صفاقس</option>
+<option value="Kairouan">القيروان</option>
+<option value="Kasserine">القصرين</option>
+<option value="Sidi Bouzid">سيدي بوزيد</option>
+<option value="Gabès">قابس</option>
+<option value="Mednine">مدنبين</option>
+<option value="Tataouine">تطاوين</option>
+<option value="Gafsa">قفصة</option>
+<option value="Touzeur">توزر</option>
+<option value="Kébili">قليبيا</option>
+<option value="Djerba">جربة</option><br><br>
+</select><br><br><br>
+<textarea name="resume" rows="8" cols="40"></textarea><br><br>
+<input type="submit" value="Envoyer" />
+<input type="reset" value="Efacer" />
+
+</form> 
+</body>
+</html>
